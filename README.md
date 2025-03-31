@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/1aeeccc1-42c4-48b0-bfa5-44d0b5b1c7d7)Configuration Steps:
 
 1.	Create a Project Directory: 
 •	mkdir testcafe-percy-demo 
