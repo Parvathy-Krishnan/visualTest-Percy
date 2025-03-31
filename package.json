@@ -1,0 +1,16 @@
+{
+  "name": "visualtest-percy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:percy": "percy exec -- testcafe chrome tests/"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/testcafe": "^1.0.4",
+    "testcafe": "^3.7.2"
+  }
+}

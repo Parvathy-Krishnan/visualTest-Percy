@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Page for Demo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7f6; /* Light gray background */
+      color: #333; /* Dark gray text */
+    }
+
+    header {
+      background-color: #48a516; /* Olive green header */
+      color: #fff; /* White text */
+      text-align: center;
+      padding: 2rem 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-color: #fff; /* White content background */
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h2 {
+      color: #2a623d; /* Darker olive green headings */
+      margin-bottom: 1rem;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #f2ca64; /* Golden yellow button */
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #f4a261; /* Light orange button hover */
+    }
+
+    .card {
+      background-color: #e0e8e5; /* Light greenish background for cards */
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #12eb68; /* Very light green footer */
+      border-top: 1px solid #ccc;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header style="position: relative;">
+    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    </div>
+
+    <h1>The Fan Club</h1>
+
+    <!-- Logo on the top-right -->
+    <img src="./BugHunt.png" alt="BugHunt Logo" style="position: absolute; top: 10px; right: 10px; max-height: 100px;">
+  </header>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+    <div style="flex: 1; text-align: center;"><img src="./Nestea.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Monster.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Frooti.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./7up.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Pepsi.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Limca.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Coke1.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Sprite.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./ThumbsUp.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Bovonto.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div>
+    <div style="flex: 1; text-align: center;"><img src="./Maaza.png" alt="Logo" style="max-height: 60px; margin: 0.5rem;"></div>
+   <!-- <div style="flex: 1; text-align: center;"><img src="./Lipton.png" alt="Logo" style="max-height: 80px; margin: 0.5rem;"></div> -->
+  </div>
+
+  <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+    <!-- Left Pane -->
+    <div style="flex: 1; max-width: 500px; background-color: #e0e8e5; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-left: 1rem; margin-top: 2rem;">
+      <h2>Sign Up as a Fan</h2>
+      <form>
+        <div style="margin-bottom: 1rem;">
+          <label for="name" style="display: block; margin-bottom: 0.5rem;">Name:</label>
+          <input type="text" id="name" name="name" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 1rem;">
+            <label for="email" style="display: block; margin-bottom: 0.5rem; text-align: left;">Email Address:</label>
+          <input type="email" id="email" name="email" style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;">
+        </div>
+        <div style="margin-bottom: 1rem;">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          <label for="newsletter">I want to receive the newsletter</label>
+        </div>
+        <button type="submit" style="width: 100%; padding: 0.75rem; background-color: #f2ca64; color: #333; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s ease; text-align: left;">Sign Up</button>
+      </form>
+    </div>
+
+    <!-- Main Content -->
+    <main style="flex: 2; max-width: 1000px; padding: 2rem; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <h2>About this Page</h2>
+      <p>Welcome to the ultimate cool drinks fans club! This page is designed to celebrate your love for refreshing beverages with a vibrant and engaging design.</p>
+
+      <div class="card">
+        <h3>Stay Cool with Every Sip!</h3>
+        <img src="./Product1.jpg" alt="productImage" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;">
+      </div>
+
+      <a href="#" class="button">Explore More...</a>
+
+      <h2>More Details</h2>
+      <p>This page is perfect for fans of cool drinks, featuring a refreshing design inspired by vibrant colors and a clean layout.</p>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Test Page for Demo</p>
+  </footer>
+
+</body>
+</html>
